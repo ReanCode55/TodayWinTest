@@ -1,0 +1,421 @@
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px !important;
+    }
+}
+
+body {
+    /* background-image: url(../images/home_page/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%; */
+    background-color: #008080;
+}
+
+#app {
+    position: relative;
+    min-width: 320px;
+    width: 10rem;
+    margin: 0 auto;
+    /* background-color: #5e1b09; */
+    overflow: hidden;
+}
+
+.topbar {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1.8667rem;
+    padding: 0 0.4267rem;
+    /* background: linear-gradient(82deg, #bb1717 0, #bb1717 0, #cd8200 99%, #cd8200 99%); */
+}
+
+.topbar .left {
+    display: flex;
+    align-items: center;
+}
+
+.topbar .left .icon {
+    width: 1.2267rem;
+    height: 1.2267rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.topbar .left .cont {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.2133rem;
+}
+
+.topbar .left .cont .title {
+    width: 2.8rem;
+}
+
+.topbar .left .cont .sub {
+    width: 3.3867rem;
+}
+
+.topbar .right div img {
+    width: 2.6667rem;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 14.9333rem;
+    margin-top: 1.8667rem;
+    /* background-color: #792710; */
+    background-image: url(../images/home_page/pic1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.main .bottom {
+    position: absolute;
+    bottom: -2px;
+    width: 10.9333rem;
+}
+
+.main .view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px 60px;
+}
+
+.main .view .v {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .view .v .left {
+    width: 100%;
+    height: 4.8rem;
+    /* background-color: #242424; */
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.main .view .v .left .video-js {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.main .view .v .left .video-js source{
+    width: 100%;
+} 
+
+.main .view .v .right {
+    margin-top: 0.64rem;
+    font-size: 0.4267rem;
+    color: #ffffff;
+    font-size: 0.3733rem;
+    line-height: 0.5867rem;
+    text-align: center;
+    text-shadow: 0 0 20px #ffd000;
+    font-weight: 700;
+}
+
+.main .view .v-download {
+    margin-top: 0.64rem;
+    margin-bottom: 0.48rem;
+}
+
+.main .view .v-download img {
+    width: 3.8933rem;
+    height: 1.1467rem;
+}
+
+.games {
+    width: 100%;
+    height: 7.4133rem;
+    background-image: url(../images/home_page/pic3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.games .title {
+    width: 100%;
+    margin: 50px auto;
+    position: relative;
+}
+.games .title img{
+    width: 100%;
+}
+.games .title .game_logo{
+    position: absolute;
+    top: 35%;
+    transform: translateY(-35%);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    /* z-index: -1; */
+}
+.games .title .game_logo img{
+    width: 100%;
+}
+
+.games .swiper-games {
+    padding: 0 0.5333rem;
+}
+
+.games .swiper-games .swiper-wrapper .swiper-slide {
+    width: 2.1333rem;
+    height: 2.6133rem;
+}
+
+.games .swiper-games .swiper-wrapper .swiper-slide img {
+    width: 2.1333rem;
+}
+
+.games .swiper-games .swiper-scrollbar {
+    position: initial;
+    margin-top: 0.32rem;
+    height: 0.0533rem;
+    background-color: #72230f;
+}
+
+.games .swiper-games .swiper-scrollbar .swiper-scrollbar-drag {
+    background-color: #cd8200;
+}
+
+.features {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5333rem;
+}
+
+.features .border {
+    position: absolute;
+    top: 0;
+    left: -0.4267rem;
+    z-index: 999;
+    width: 104%;
+}
+
+.features .swiper-box {
+    width: 8.788rem;
+    height: 6rem;
+    margin-top: 0.9067rem;
+    border-radius: 0.1067rem;
+    overflow: hidden;
+}
+
+.features .swiper-box .swiper-features {
+    width: 100%;
+    height: 100%;
+}
+
+.features .swiper-box .swiper-features .swiper-wrapper .swiper-slide {
+    width: 100%;
+    height: 100%;
+    background-color: #87ceeb;
+}
+
+.features .swiper-box .swiper-features .swiper-wrapper .swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.players {
+    box-sizing: border-box;
+    /* margin: 0.64rem 0.5333rem 0; */
+    background-image: url(../images/home_page/pic2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 14.9333rem;
+    padding: 10px;
+
+}
+
+/* .players .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.32rem 0;
+    color: #fff;
+    border-radius: 0.2667rem;
+    background: linear-gradient(to top, #8f5d00, #d3a510);
+    box-shadow: 0 0 0.2667rem 0 #331006;
+    font-weight: 700;
+    font-size: 0.3733rem;
+} */
+
+.players .title p {
+    margin: 0;
+    line-height: 0.5333rem;
+}
+
+.players .user {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.5333rem 0;
+    /* border-bottom: 0.0267rem solid #331006; */
+}
+
+.players .user.last {
+    border-bottom: none;
+}
+
+.players .user .left img {
+    width: 1.8133rem;
+    height: 1.8133rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.players .user .right {
+    margin-left: 0.48rem;
+}
+
+.players .user .right p {
+    margin: 0;
+}
+
+.players .user .right .nick {
+    margin-top: 0.2667rem;
+    margin-bottom: 0.16rem;
+    font-size: 0.3733rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.players .user .right .addr {
+    margin-bottom: 0.32rem;
+    font-size: 0.3733rem;
+    color: #000000;
+}
+
+.players .user .right .txt {
+    font-size: 0.32rem;
+    color: #000000;
+}
+
+.players .download-btn {
+    margin-bottom: 1.6rem;
+    /* transform: scale(106%); */
+    width: 80%;
+    margin: auto;
+}
+
+.players .download-btn .gta-download img {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.8rem 0 0.6133rem;
+    color: #fff;
+    font-size: 0.3733rem;
+    /* background-image: url(../images/home_page/pic2.png); */
+}
+
+.footer .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .logo .img1 {
+    width: 1.6rem;
+    margin-right: 0.5333rem;
+}
+
+.footer .logo div {
+    display: flex;
+    align-items: center;
+}
+
+.footer .logo .img2 {
+    height: 1.0667rem;
+}
+
+.footer .contact {
+    display: flex;
+    margin-top: 0.5333rem;
+}
+
+.footer .contact a {
+    margin-right: 0.32rem;
+    color: #fff;
+    font-size: 0.3733rem;
+}
+
+.footer .contact p {
+    font-size: 0.3733rem;
+}
+
+.footer .devider {
+    width: 100%;
+    margin-top: 0.8rem;
+    /* border-bottom: 1px solid #5e1b09; */
+}
+
+.footer .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5333rem;
+}
+
+.footer .links a {
+    display: flex;
+    align-items: center;
+    height: 0.32rem;
+    margin-bottom: 0.2667rem;
+    padding: 0 0.32rem;
+    font-size: 0.3733rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .links a.border {
+    border-right: 1px dashed #000000;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer .declaration {
+    font-weight: normal;
+    padding: .4267rem .4267rem;
+    text-align: center;
+    margin-bottom: .32rem;
+    line-height: .5333rem;
+    /* border-top: 1px solid #5e1b09; */
+}
